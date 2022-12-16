@@ -4,12 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiring Maid</title>
+    <title>Document</title>
 </head>
-<body bgcolor="#C0EEE4">
-    <p>Shaurya Gupta(Leader)</p>
-    <p>Rohan Sahu</p>
-    <p>Sharad Shakya</p>
-    <p>Rishi Sahu</p>
+<body >
+    <table border="" align="center" >
+        <tr>
+            <td><b>Name</b></td>
+            <td><input type="text" size="30" placeholder="Enter Name"/></td>
+        </tr>
+        <tr>
+            <td><b>password</b></td>
+            <td><input type="password" size="30" placeholder=""/></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td><input type="radio" name="gender" value="male" size="30">Male
+                <br>
+                <input type="radio" name="gender" value="female" size="30">Female
+                <br>
+                <input type="radio" name="gender" value="prefer not to say" size="30">Prefer Not to Say
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Select City</b></td>           
+            <td>
+                <select name="city">
+
+                    <option value="Kanpur">kanpur</option>
+                    
+                    <option value="Delhi">delhi</option>
+                    
+                    <option value="Mumbai">mumbai</option>
+                    
+                    <option value="Chennai">chennai</option>
+                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Date of birth</b></td>
+            <td><input type="date" size="30" /></td>
+        </tr>
+        <tr>
+            <td><b>Mother Name</b></td>
+            <td><input type="text" size="30" placeholder="enter mother name" /></td>
+        </tr>
+        <tr>
+            <td><b>Father Name</b></td>
+            <td><input type="text" size="30" placeholder="enter father name" /></td>
+        </tr>
+        <tr>
+            <td><b>Upload Document</b></td>
+            <td><input type="file" size="30" value="file" /></td>
+        </tr>
+        <tr>
+            <td><b>Game</b></td>
+            <td><select name="game"
+                size="3" multiple="multiple">
+                <option value="chess"
+                selected="selected">Chess</op
+                tion>
+                <option
+                value="football">Football</option>
+                <option
+                value="Cricket">Cricket</option>
+                <option
+                value="Badminton">Badminton</option>
+                </select>
+            </td>
+        
+        </tr>
+        <tr>
+            <td><b>Hobby</b></td>
+            <td><input  type="checkbox" name="hobby"  value="study" />Study<br>
+                <input  type="checkbox" name="hobby" value="playing" />Playing<br>
+            </td>
+        </tr>
+    </table>
+    <p align="center" ><input  type="submit" value="Submit" /><input  type="submit" value="Reset" /></p>
 </body>
 </html>
